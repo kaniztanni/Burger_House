@@ -444,138 +444,100 @@ footer{
 }
 
 .footersection {
-	position: relative;
+	background-image: url(../images/fbur.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
     width: 95%;
-    margin: 0 auto;
-    margin-bottom: 30px;
-}
-.fblur {
+    margin: 40px auto;
+
     
+}
+.footersection1st
+{
+    overflow: hidden;
+}
+.footersection1st_left
+{
+  width: 40%;
+    float: left;
+    margin-top: 90px;
+    margin-left: 61px;
+}
+
+.footerlogo 
+{
+    width: 65%;
+    margin-bottom: 100px;
+}
+.footerlogo img
+{
     width: 100%;
 }
-.flogo
+.footersection1st_left p
 {
-	position: absolute;
-    top: 87px;
-    left: 67px;
-    font-size: 54px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: white;
-}
-
-.fp
-{
-	position: absolute;
-    top: 96px;
-    left: 190px;
-    font-size: 54px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: white;
-}
-.fp2
-
-{  position: absolute;
-    top: 266px;
-    left: 67px;
-    width: 27%;
-    float: left;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     color: white;
-}
-.fp3
-{
-	 position: absolute;
-    left: 67px;
-    bottom: 30px;
-    font-family: 'Bebas Neue', cursive;
-    font-weight: 100;
-    font-size: 13px;
-    text-transform: uppercase;
-    color: white;
+    width: 67%
 }
 
-.floc
+.footersection1st_right
 {
-	position: absolute;
-    top: 266px;
-    right: 441px;
+    width: 28%;
+    float: right;
+    margin-top: 280px;
+    /* margin-right: 100px; */
+
 }
-.fp4
+.locationlogo 
 {
-	position: absolute;
-    top: 276px;
-    right: 232px;
+    width: 6%;
+    float: left;
+}
+.locationlogo img
+{
+    width: 100%;
+}
+.maillogo 
+{
+    width: 6%;
+    float: left;
+}
+.maillogo img
+{
+    width: 100%;
+}
+.footersection1st_right p
+{
     font-family: 'Bebas Neue', cursive;
     font-weight: 100;
     font-size: 16px;
     text-transform: uppercase;
     color: white;
+    padding: 3px 63px 23px;
+    
 }
-.mail
+.footersection2nd
 {
-	position: absolute;
-    top: 314px;
-    right: 441px;
+    overflow: hidden;
+    margin-top:180px ;
+    margin-bottom: 10px;
+     margin-left: 61px;
 }
-.fp5
+.footersection2nd p
 {
-	position: absolute;
-    top: 315px;
-    right: 299px;
-    font-family: 'Bebas Neue', cursive;
-    font-weight: 100;
-    font-size: 16px;
-    text-transform: uppercase;
-    color: white;
-}
-
-.l1
-{
-	 position: absolute;
-    right: 299px;
-    bottom: 30px;
-    font-family: 'Bebas Neue', cursive;
+   font-family: 'Bebas Neue', cursive;
     font-weight: 100;
     font-size: 13px;
     text-transform: uppercase;
     color: white;
+    float: left;
+    margin-top: 15px;
 }
-
-
-.l2
-{
-	 position: absolute;
-    right: 234px;
-    bottom: 30px;
-    font-family: 'Bebas Neue', cursive;
-    font-weight: 100;
-    font-size: 13px;
-    text-transform: uppercase;
-    color: white;
-}
-.l3
-{
-	 position: absolute;
-    right: 170px;
-    bottom: 30px;
-    font-family: 'Bebas Neue', cursive;
-    font-weight: 100;
-    font-size: 13px;
-    text-transform: uppercase;
-    color: white;
-}
-.l4
-{
-	position: absolute;
-    right: 117px;
-    bottom: 30px;
-    font-family: 'Bebas Neue', cursive;
-    font-weight: 100;
-    font-size: 13px;
-    text-transform: uppercase;
-    color: white;
+.menu2
+{   width: 45%;
+    
+    padding-right: 80px;
 }
 /*footer end*/
